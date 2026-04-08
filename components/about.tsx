@@ -19,12 +19,16 @@ export function About() {
           <div className="space-y-6">
             <div className="neon-box p-8 rounded-lg">
               <h3 className="text-xl font-bold text-cyan-400 mb-4">
-                {'> WHO AM I?'}
+                {'>Introduction'}
               </h3>
               <p className="text-gray-300 leading-relaxed">
-                Saya adalah mahasiswa Teknik & Informatika dari Bina Sarana Informatika dengan passion yang tinggi 
-                dalam Web Development dan Software Engineering. Saya percaya bahwa teknologi harus digunakan untuk 
-                menciptakan solusi yang meaningful dan accessible untuk semua orang.
+                Saya adalah mahasiswa Universitas Bina Sarana Informatika dengan fakultas Teknik & Informatika dengan passion yang tinggi 
+                dalam Web Development dan Software Engineering. Saya percaya bahwa teknologi harus digunakan untuk menciptakan solusi yang 
+                meaningful dan accessible untuk semua orang.
+
+                Sebagai seorang IT Enthusiast, Saya menciptakan jam terbang untuk menjembatani kesenjangan antara intusias manusia dan presisi mesin
+                Perjalanan saya dimulai dengan adanya rasa ingin tahu terhadap dunia programming dan dunia digital, dimana baris-baris kode menjadi bahasa 
+                pertama saya dalam menciptakan suatu project, dimulai dengan project yang sederhana.  
               </p>
             </div>
 

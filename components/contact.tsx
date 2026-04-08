@@ -64,7 +64,7 @@ export function Contact() {
             <h3 className="text-3xl font-bold text-white mb-4">
               Let&apos;s Create Something Amazing Together
             </h3>
-            <p className="text-gray-300 text-lg mb-6 leading-relaxed">
+            <p className="text-blue-300 text-lg mb-6 leading-relaxed">
               Saya terbuka untuk kolaborasi, freelance projects, atau sekedar chat tentang web development. 
               Feel free to reach out!
             </p>
@@ -90,7 +90,7 @@ export function Contact() {
                       <IconComponent className="w-6 h-6" />
                     </div>
                     <div className="flex-1 min-w-0">
-                      <p className="text-sm text-gray-400 uppercase tracking-wider">
+                      <p className="text-sm text-blue-400 uppercase tracking-wider">
                         {contact.label}
                       </p>
                       <p className="text-white font-semibold truncate group-hover:text-cyan-400 transition-colors">
@@ -144,9 +144,9 @@ export function Contact() {
             {/* Branding */}
             <div>
               <h4 className="text-lg font-bold text-cyan-400 neon-text mb-2">
-                {'< TEKNIK INFORMATIKA />'}
+                {' TEKNIK & INFORMATIKA '}
               </h4>
-              <p className="text-gray-400 text-sm">
+              <p className="text-blue-400 text-sm">
                 Bina Sarana Informatika Portfolio
               </p>
             </div>
@@ -156,7 +156,7 @@ export function Contact() {
               <p className="text-cyan-400 font-semibold mb-4">Follow Me</p>
               <div className="flex gap-4">
                 <Link
-                  href="https://github.com"
+                  href="https://github.com/MuhammadArif-bin"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="neon-box p-3 rounded hover:bg-cyan-400 hover:bg-opacity-10 transition-all"
@@ -165,7 +165,7 @@ export function Contact() {
                   <Github className="w-5 h-5 text-cyan-400" />
                 </Link>
                 <Link
-                  href="https://linkedin.com"
+                  href="https://www.linkedin.com/in/muhammad-arif-giovanni-50792b3a8/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="neon-box p-3 rounded hover:bg-cyan-400 hover:bg-opacity-10 transition-all"
@@ -174,7 +174,7 @@ export function Contact() {
                   <Linkedin className="w-5 h-5 text-cyan-400" />
                 </Link>
                 <Link
-                  href="https://instagram.com"
+                  href="https://www.instagram.com/m.arifgiovanni/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="neon-box p-3 rounded hover:bg-cyan-400 hover:bg-opacity-10 transition-all"
@@ -183,7 +183,7 @@ export function Contact() {
                   <Instagram className="w-5 h-5 text-cyan-400" />
                 </Link>
                 <Link
-                  href="mailto:student@bsiedu.com"
+                  href="mailto:arifykt@gmail.com"
                   className="neon-box p-3 rounded hover:bg-cyan-400 hover:bg-opacity-10 transition-all"
                   aria-label="Email"
                 >

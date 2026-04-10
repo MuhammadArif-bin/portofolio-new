@@ -1,56 +1,47 @@
-'use client'
+"use client";
 
-import Link from 'next/link'
-import {
-  Github,
-  Linkedin,
-  Instagram,
-  Mail,
-  ArrowRight,
-} from 'lucide-react'
+import Link from "next/link";
+import { Github, Linkedin, Instagram, Mail, ArrowRight } from "lucide-react";
 
 export function Contact() {
   const contactLinks = [
     {
       id: 1,
       icon: Mail,
-      label: 'Email',
-      value: 'arifykt@gmail.com',
-      href: '15220801@bsi.ac.id',
-      color: 'text-red-400',
+      label: "Email",
+      value: "arifykt@gmail.com",
+      href: "15220801@bsi.ac.id",
+      color: "text-red-400",
     },
     {
       id: 2,
       icon: Linkedin,
-      label: 'LinkedIn',
-      value: 'muhammad arif giovanni',
-      href: 'https://www.linkedin.com/in/muhammad-arif-giovanni-50792b3a8',
-      color: 'text-blue-400',
+      label: "LinkedIn",
+      value: "muhammad arif giovanni",
+      href: "https://www.linkedin.com/in/muhammad-arif-giovanni-50792b3a8",
+      color: "text-blue-400",
     },
     {
       id: 3,
       icon: Github,
-      label: 'GitHub',
-      value: 'MuhammadArif-bin',
-      href: 'https://github.com/MuhammadArif-bin',
-      color: 'text-white',
+      label: "GitHub",
+      value: "MuhammadArif-bin",
+      href: "https://github.com/MuhammadArif-bin",
+      color: "text-white",
     },
     {
       id: 4,
       icon: Instagram,
-      label: 'Instagram',
-      value: 'm.arifgiovanni',
-      href: 'https://www.instagram.com/m.arifgiovanni',
-      color: 'text-pink-400',
+      label: "Instagram",
+      value: "m.arifgiovanni",
+      href: "https://www.instagram.com/m.arifgiovanni",
+      color: "text-pink-400",
     },
-  ]
+  ];
 
   return (
     <>
-      <section
-        id="contact"
-        className="py-20 px-4 relative overflow-hidden"
-      >
+      <section id="contact" className="py-20 px-4 relative overflow-hidden">
         <div className="max-w-6xl mx-auto">
           <div className="mb-16">
             <h2 className="text-4xl lg:text-5xl font-bold glow-text mb-2">
@@ -65,18 +56,18 @@ export function Contact() {
               Let&apos;s Create Something Amazing Together
             </h3>
             <p className="text-blue-300 text-lg mb-6 leading-relaxed">
-              Saya terbuka untuk kolaborasi, freelance projects, atau sekedar chat tentang web development. 
-              Feel free to reach out!
+              Saya terbuka untuk kolaborasi, freelance projects, atau sekedar
+              chat tentang web development. Feel free to reach out!
             </p>
             <p className="text-cyan-400 font-semibold">
-              {'[ open for opportunities 2025 ]'}
+              {"[ open for opportunities 2025 ]"}
             </p>
           </div>
 
           {/* Contact Methods */}
           <div className="grid md:grid-cols-2 gap-8 mb-16">
             {contactLinks.map((contact) => {
-              const IconComponent = contact.icon
+              const IconComponent = contact.icon;
               return (
                 <Link
                   key={contact.id}
@@ -86,7 +77,9 @@ export function Contact() {
                   className="neon-box p-8 rounded-lg hover:shadow-lg hover:shadow-cyan-400/50 transition-all duration-300 group"
                 >
                   <div className="flex items-center gap-4">
-                    <div className={`p-4 rounded-lg neon-box ${contact.color} flex-shrink-0`}>
+                    <div
+                      className={`p-4 rounded-lg neon-box ${contact.color} flex-shrink-0`}
+                    >
                       <IconComponent className="w-6 h-6" />
                     </div>
                     <div className="flex-1 min-w-0">
@@ -100,7 +93,7 @@ export function Contact() {
                     <ArrowRight className="w-5 h-5 text-cyan-400 opacity-0 group-hover:opacity-100 transition-opacity" />
                   </div>
                 </Link>
-              )
+              );
             })}
           </div>
 
@@ -144,7 +137,7 @@ export function Contact() {
             {/* Branding */}
             <div>
               <h4 className="text-lg font-bold text-cyan-400 neon-text mb-2">
-                {' TEKNIK & INFORMATIKA '}
+                {" TEKNIK & INFORMATIKA "}
               </h4>
               <p className="text-blue-400 text-sm">
                 Bina Sarana Informatika Portfolio
@@ -196,22 +189,25 @@ export function Contact() {
             <div>
               <p className="text-cyan-400 font-semibold mb-4">Based In</p>
               <p className="text-gray-400 text-sm">Indonesia</p>
-              <p className="text-gray-400 text-sm mt-2">Always open to new opportunities</p>
+              <p className="text-gray-400 text-sm mt-2">
+                Always open to new opportunities
+              </p>
             </div>
           </div>
 
           {/* Copyright */}
           <div className="border-t border-cyan-400 border-opacity-20 pt-8 text-center">
             <p className="text-gray-500 text-sm">
-              © 2025 Teknik & Informatika | Bina Sarana Informatika. Crafted with{' '}
-              <span className="text-cyan-400">{'<3'}</span> using Next.js & TypeScript
+              © 2025 Teknik & Informatika | Bina Sarana Informatika. Crafted
+              with <span className="text-cyan-400">{"<3"}</span> using Next.js &
+              TypeScript
             </p>
             <p className="text-gray-600 text-xs mt-2 font-mono">
-              {'[ portfolio.v1.0 ] [ cyberpunk-theme ]'}
+              {"[ portfolio.v1.0 ] [ cyberpunk-theme ]"}
             </p>
           </div>
         </div>
       </footer>
     </>
-  )
+  );
 }

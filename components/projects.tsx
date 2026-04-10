@@ -14,13 +14,13 @@ export function Projects() {
     },
     {
       id: 2,
-      title: 'Task Management App',
-      description: 'Web application untuk manage tasks dengan real-time updates dan user authentication',
-      stack: ['Next.js', 'TypeScript', 'MySQL'],
+      title: 'Remove-Background',
+      description: 'Hapus latar belakang gambar secara online dan gratis. Ubah JPG/PNG menjadi transparan (background transparan) secara otomatis dengan AI. Tanpa pendaftaran, hasil berkualitas HD.',
+      stack: ['Next.js', 'TypeScript', 'Tailwind CSS'],
       achievements: 'JWT authentication, responsive UI, database optimization',
       status: 'Completed',
-      url: 'https://example.com/task-management-app',
-      image: '/placeholder.jpg',
+      url: 'http://remove-background-pearl.vercel.app',
+      image: 'foto-RemoveBackground.png',
     },
     {
       id: 3,

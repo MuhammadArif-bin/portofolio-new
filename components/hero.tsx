@@ -61,7 +61,7 @@ LANGUAGES
             <div className="neon-box-accent p-1">
               <div className="relative w-80 h-80 rounded-lg overflow-hidden">
                 <Image
-                  src="/profileku.jpg"
+                  src="profile-no-bg.png"
                   alt="Profile Photo"
                   fill
                   className="object-cover"
